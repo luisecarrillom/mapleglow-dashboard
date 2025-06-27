@@ -48,7 +48,7 @@ new Chart(document.getElementById("conversionChart"), {
   },
 });
 
-// ROAS Chart
+// ROAS Chart (Return On Advertising Spend)
 new Chart(document.getElementById("roasChart"), {
   type: 'line',
   data: {
