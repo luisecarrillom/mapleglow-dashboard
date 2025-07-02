@@ -20,7 +20,7 @@ new Chart(document.getElementById("visitorsChart"), {
   },
 });
 
-// Sales Chart
+// Sales Chart 
 new Chart(document.getElementById("salesChart"), {
   type: 'bar',
   data: {
