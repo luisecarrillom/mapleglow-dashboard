@@ -31,7 +31,7 @@ new Chart(document.getElementById("salesChart"), {
       backgroundColor: "rgba(153, 102, 255, 0.6)",
     }],
   },
-}); 
+});  
 
 // Conversion Rate Chart
 new Chart(document.getElementById("conversionChart"), {
