@@ -33,7 +33,7 @@ new Chart(document.getElementById("salesChart"), {
   },
 });  
 
-// Conversion Rate Chart
+// Conversion Rate Chart   
 new Chart(document.getElementById("conversionChart"), {
   type: 'line',
   data: {
