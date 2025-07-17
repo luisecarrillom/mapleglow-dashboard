@@ -1,13 +1,13 @@
 // ecommerce-dashboard.js
 
-// Sample KPI data for MapleGlow 
+// Sample KPI data for MapleGlow  
 const labels = ["January", "February", "March", "April", "May"];
 const visitorsData = [15000, 18000, 17000, 21000, 24000];
 const salesData = [300, 400, 380, 500, 600];
 const conversionData = [2.0, 2.2, 2.3, 2.4, 2.5];
 const roasData = [2.5, 3.1, 3.0, 3.3, 3.4];
 
-// Visitors Chart
+// Visitors Chart 
 new Chart(document.getElementById("visitorsChart"), {
   type: 'bar',
   data: {
