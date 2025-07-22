@@ -4,8 +4,7 @@ This project is a simple web-based dashboard that visualizes key performance ind
 
 ## 🚀 Live Demo
 
-🔗 [View Dashboard on GitHub Pages](https://your-username.github.io/mapleglow-dashboard/)  
-*(Replace with your actual GitHub Pages link after publishing)*
+🔗 [View Dashboard on GitHub Pages](https://luisecarrillom.github.io/mapleglow-dashboard//)  
 
 ---
 
