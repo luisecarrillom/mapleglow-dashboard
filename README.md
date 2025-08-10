@@ -11,7 +11,7 @@ This project is a simple web-based dashboard that visualizes key performance ind
 ## 📊 Features
 
 - Monthly Visitors Chart (Bar)
-- Monthly Sales Chart (Bar)
+- Monthly Sales Chart (Bar) 
 - Conversion Rate Trend (Line)
 - ROAS (Return on Ad Spend) Trend (Line)
 - Clean, responsive layout

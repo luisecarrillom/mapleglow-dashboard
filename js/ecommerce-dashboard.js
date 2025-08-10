@@ -20,7 +20,7 @@ new Chart(document.getElementById("visitorsChart"), {
   },
 });
 
-// Sales Chart  
+// Sales Chart   
 new Chart(document.getElementById("salesChart"), {
   type: 'bar',
   data: {
@@ -48,7 +48,7 @@ new Chart(document.getElementById("conversionChart"), {
   },
 });
 
-// ROAS Chart (Return On Advertising Spend)  
+// ROAS Chart (Return On Advertising Spend)   
 new Chart(document.getElementById("roasChart"), {
   type: 'line',
   data: {
