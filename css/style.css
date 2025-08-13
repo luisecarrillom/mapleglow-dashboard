@@ -12,18 +12,31 @@ header {
   color: #fff;
   padding: 1rem;
   text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.8); /* soft header shadow */
 }
 
 main {
   padding: 2rem;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /*responsive grid */
   gap: 2rem;
 }
 
 .chart-container {
   background: #fff;
-  border-radius: 8px;
+  border-radius: 10px; /* change: slightly more around corners */
   padding: 1rem;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  /* change: softer, large shadow for a clean card look */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06); 
+    /* change: small hover to feel interactive */
+  transition: transform 0.15s ease, box-shadow 0.15s ease; /* smooth hover */
+}
+.chart-container:hover {
+  transform: translateY(-2px); /* small lift */
+  box-shadow: 0 8px 18px rgba(0,0,0,0.08); /* hover shadow */
+}
+
+/* change: avoid very tall charts on big screens */
+canvas {
+  max-height: 320px; /* keep charts compact */
 }
